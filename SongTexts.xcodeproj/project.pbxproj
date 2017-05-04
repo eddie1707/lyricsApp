@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5DD84B6AC1602D7116BF271 /* Pods_SongTexts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3913662EC208C6874EE5FE0 /* Pods_SongTexts.framework */; };
 		E8D906F41EB9FDCF00529DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D906F31EB9FDCF00529DCB /* AppDelegate.swift */; };
 		E8D906F61EB9FDCF00529DCB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D906F51EB9FDCF00529DCB /* MasterViewController.swift */; };
 		E8D906F81EB9FDCF00529DCB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D906F71EB9FDCF00529DCB /* DetailViewController.swift */; };
@@ -14,9 +15,14 @@
 		E8D906FD1EB9FDCF00529DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D906FC1EB9FDCF00529DCB /* Assets.xcassets */; };
 		E8D907001EB9FDCF00529DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D906FE1EB9FDCF00529DCB /* LaunchScreen.storyboard */; };
 		E8D907081EBBBF2400529DCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D907071EBBBF2400529DCB /* Extensions.swift */; };
+		E8D9070A1EBBC53700529DCB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8D907091EBBC53700529DCB /* GoogleService-Info.plist */; };
+		E8D9070C1EBBC5F700529DCB /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9070B1EBBC5F700529DCB /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E9E240BA03C3A4F132A457C /* Pods-SongTexts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongTexts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SongTexts/Pods-SongTexts.debug.xcconfig"; sourceTree = "<group>"; };
+		C3913662EC208C6874EE5FE0 /* Pods_SongTexts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SongTexts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE90FA7AA643634AE25F9580 /* Pods-SongTexts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongTexts.release.xcconfig"; path = "Pods/Target Support Files/Pods-SongTexts/Pods-SongTexts.release.xcconfig"; sourceTree = "<group>"; };
 		E8D906F01EB9FDCF00529DCB /* SongTexts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongTexts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D906F31EB9FDCF00529DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D906F51EB9FDCF00529DCB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		E8D906FF1EB9FDCF00529DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8D907011EB9FDCF00529DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D907071EBBBF2400529DCB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E8D907091EBBC53700529DCB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8D9070B1EBBC5F700529DCB /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DD84B6AC1602D7116BF271 /* Pods_SongTexts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12AF235FC332499B25474F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3913662EC208C6874EE5FE0 /* Pods_SongTexts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446AF8E2E6981F4210A25DCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E9E240BA03C3A4F132A457C /* Pods-SongTexts.debug.xcconfig */,
+				DE90FA7AA643634AE25F9580 /* Pods-SongTexts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E8D906E71EB9FDCF00529DCB = {
 			isa = PBXGroup;
 			children = (
+				E8D907091EBBC53700529DCB /* GoogleService-Info.plist */,
 				E8D906F21EB9FDCF00529DCB /* SongTexts */,
 				E8D906F11EB9FDCF00529DCB /* Products */,
+				446AF8E2E6981F4210A25DCE /* Pods */,
+				12AF235FC332499B25474F01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				E8D906F31EB9FDCF00529DCB /* AppDelegate.swift */,
-				E8D906F51EB9FDCF00529DCB /* MasterViewController.swift */,
-				E8D906F71EB9FDCF00529DCB /* DetailViewController.swift */,
+				E8D9070E1EBBC71500529DCB /* Models */,
+				E8D9070D1EBBC70B00529DCB /* Controllers */,
 				E8D907071EBBBF2400529DCB /* Extensions.swift */,
 				E8D906F91EB9FDCF00529DCB /* Main.storyboard */,
 				E8D906FC1EB9FDCF00529DCB /* Assets.xcassets */,
@@ -70,6 +99,23 @@
 			path = SongTexts;
 			sourceTree = "<group>";
 		};
+		E8D9070D1EBBC70B00529DCB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8D906F51EB9FDCF00529DCB /* MasterViewController.swift */,
+				E8D906F71EB9FDCF00529DCB /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E8D9070E1EBBC71500529DCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8D9070B1EBBC5F700529DCB /* Song.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8D907041EB9FDCF00529DCB /* Build configuration list for PBXNativeTarget "SongTexts" */;
 			buildPhases = (
+				B5A79416AA71BC3EEE9E87F3 /* [CP] Check Pods Manifest.lock */,
 				E8D906EC1EB9FDCF00529DCB /* Sources */,
 				E8D906ED1EB9FDCF00529DCB /* Frameworks */,
 				E8D906EE1EB9FDCF00529DCB /* Resources */,
+				BFBAAB55A772B466575166A3 /* [CP] Embed Pods Frameworks */,
+				720A030153D824E45256D5FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,11 +181,60 @@
 			files = (
 				E8D907001EB9FDCF00529DCB /* LaunchScreen.storyboard in Resources */,
 				E8D906FD1EB9FDCF00529DCB /* Assets.xcassets in Resources */,
+				E8D9070A1EBBC53700529DCB /* GoogleService-Info.plist in Resources */,
 				E8D906FB1EB9FDCF00529DCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		720A030153D824E45256D5FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongTexts/Pods-SongTexts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A79416AA71BC3EEE9E87F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBAAB55A772B466575166A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongTexts/Pods-SongTexts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8D906EC1EB9FDCF00529DCB /* Sources */ = {
@@ -147,6 +245,7 @@
 				E8D906F61EB9FDCF00529DCB /* MasterViewController.swift in Sources */,
 				E8D906F41EB9FDCF00529DCB /* AppDelegate.swift in Sources */,
 				E8D907081EBBBF2400529DCB /* Extensions.swift in Sources */,
+				E8D9070C1EBBC5F700529DCB /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +368,7 @@
 		};
 		E8D907051EB9FDCF00529DCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9E240BA03C3A4F132A457C /* Pods-SongTexts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2CQ6BUPW5E;
@@ -282,6 +382,7 @@
 		};
 		E8D907061EB9FDCF00529DCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE90FA7AA643634AE25F9580 /* Pods-SongTexts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2CQ6BUPW5E;
@@ -312,6 +413,7 @@
 				E8D907061EB9FDCF00529DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
