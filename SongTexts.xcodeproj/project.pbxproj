@@ -13,6 +13,7 @@
 		E8D906FB1EB9FDCF00529DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D906F91EB9FDCF00529DCB /* Main.storyboard */; };
 		E8D906FD1EB9FDCF00529DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D906FC1EB9FDCF00529DCB /* Assets.xcassets */; };
 		E8D907001EB9FDCF00529DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D906FE1EB9FDCF00529DCB /* LaunchScreen.storyboard */; };
+		E8D907081EBBBF2400529DCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D907071EBBBF2400529DCB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E8D906FC1EB9FDCF00529DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D906FF1EB9FDCF00529DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8D907011EB9FDCF00529DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D907071EBBBF2400529DCB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E8D906F31EB9FDCF00529DCB /* AppDelegate.swift */,
 				E8D906F51EB9FDCF00529DCB /* MasterViewController.swift */,
 				E8D906F71EB9FDCF00529DCB /* DetailViewController.swift */,
+				E8D907071EBBBF2400529DCB /* Extensions.swift */,
 				E8D906F91EB9FDCF00529DCB /* Main.storyboard */,
 				E8D906FC1EB9FDCF00529DCB /* Assets.xcassets */,
 				E8D906FE1EB9FDCF00529DCB /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				E8D906F81EB9FDCF00529DCB /* DetailViewController.swift in Sources */,
 				E8D906F61EB9FDCF00529DCB /* MasterViewController.swift in Sources */,
 				E8D906F41EB9FDCF00529DCB /* AppDelegate.swift in Sources */,
+				E8D907081EBBBF2400529DCB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
